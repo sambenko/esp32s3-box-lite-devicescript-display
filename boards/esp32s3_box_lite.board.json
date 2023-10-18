@@ -1,0 +1,22 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/devicescript-esp32/main/boards/esp32deviceconfig.schema.json",
+    "devName": "Espressif ESP32-S3-BOX-LITE",
+    "productId": "0x35225d55",
+    "$description": "A bare ESP32-S3 board without any pin functions.",
+    "archId": "esp32s3",
+    "url": "https://www.espressif.com/en/products/socs/esp32-s3",
+    "i2c": {
+        "pinSCL": 40,
+        "pinSDA": 41
+    },
+    "pins": {
+        "P4": 4,
+        "P5": 5,
+        "P6": 6,
+        "P7": 7,
+        "P9": 9,
+        "P13": 13,
+        "P45": 45,
+        "P48": 46
+    }
+}
