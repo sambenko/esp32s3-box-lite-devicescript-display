@@ -2,7 +2,9 @@
     "name": "./",
     "version": "0.0.0",
     "private": "Please use 'yarn devs add npm' to make this a publishable package",
-    "dependencies": {},
+    "dependencies": {
+        "npm": "^10.2.1"
+    },
     "devDependencies": {
         "@devicescript/cli": "latest"
     },
