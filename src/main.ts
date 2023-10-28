@@ -13,14 +13,12 @@ spi.configure({
 
 pins.P45.setMode(ds.GPIOMode.OutputHigh) // backlight set high
 
-const display = new ST7789Driver(Image.alloc(260, 220, 4), { 
+const display = new ST7789Driver(Image.alloc(320, 240, 4), { 
     dc: pins.P4,
     cs: pins.P5,
     reset: pins.P48,
     flip: true, 
     spi: spi,
-    offX: 0,
-    offY: 0,  
 })
 
 pins.P45.setMode(ds.GPIOMode.OutputLow) // backlight set low
